@@ -10,7 +10,7 @@ Install it from Cydia
 SnoozeOrStop is under GNU GENERAL PUBLIC LICENSE Version 3.
 
 ## Support
-For the latest news about SnoozeOrStop, visit the website of Marco Sero at http://www.marcosero.com/iostweaks
+For the latest news about SnoozeOrStop, visit the website of Marco Sero at http://www.marcosero.com/ios-tweaks
 
 ## Version History
 v0.1
