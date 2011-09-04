@@ -1,0 +1,19 @@
+# SnoozeOrStop
+Add button to stop alarm in Lockscreen!
+
+![](http://www.marcosero.com/wordpress/wp-content/uploads/2011/08/myLibretto1.png)
+
+##How to Use
+Install it from Cydia
+
+## License
+SnoozeOrStop is under GNU GENERAL PUBLIC LICENSE Version 3.
+
+## Support
+For the latest news about SnoozeOrStop, visit the website of Marco Sero at http://www.marcosero.com/iostweaks
+
+## Version History
+v0.1
+• First release.
+
+# Enjoy.
