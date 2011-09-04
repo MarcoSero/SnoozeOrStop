@@ -1,7 +1,7 @@
 # SnoozeOrStop
 Add button to stop alarm in Lockscreen!
 
-![](http://www.marcosero.com/wordpress/wp-content/uploads/2011/08/myLibretto1.png)
+![](https://github.com/MarcoSero/SnoozeOrStop/raw/master/iphone.png)
 
 ##How to Use
 Install it from Cydia
