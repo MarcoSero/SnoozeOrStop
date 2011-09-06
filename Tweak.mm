@@ -1,19 +1,26 @@
-#import <UIKit/UIKit2.h>
 #import <SpringBoard/SpringBoard.h>
 #import <CaptainHook/CaptainHook.h>
 
 %hook SBRemoteLocalNotificationAlert
 
-static BOOL IsMobileTimerAlarm(SBRemoteLocalNotificationAlert *self)
+static UIAlertView *alertView;
+static NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:@"/var/mobile/Library/Preferences/com.marcosero.snoozeorstop.plist"];
+
+
+static inline BOOL IsMobileTimerAlarm(SBRemoteLocalNotificationAlert *self)
 {
+    
 	return [[CHIvar(self, _app, SBApplication *) displayIdentifier] isEqualToString:@"com.apple.mobiletimer"];
+    
 }
+
 
 - (void)configure:(BOOL)configure requirePasscodeForActions:(BOOL)actions
 {
-    if(IsMobileTimerAlarm(self))
+    
+    if(IsMobileTimerAlarm(self) && [[dict objectForKey:@"Enabled"] boolValue])
     {
-        UIAlertView *alertView = [self alertSheet];
+        alertView = [self alertSheet];
         
         alertView.title = @"Alarm";
         alertView.cancelButtonIndex = nil;
@@ -25,6 +32,19 @@ static BOOL IsMobileTimerAlarm(SBRemoteLocalNotificationAlert *self)
     {
        %orig;
     }
+    
+}
+
+
+- (void)noteVolumeOrLockPressed
+{
+    
+	if(IsMobileTimerAlarm(self) && [[dict objectForKey:@"Lock"] boolValue])
+    {
+        [self alertView:alertView clickedButtonAtIndex:1];
+    }
+    
+    %orig;
     
 }
 

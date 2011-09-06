@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = SnoozeOrStopSettings;
+	cell = PSLinkCell;
+	detail = SnoozeOrStopSettingsListController;
+	icon = SnoozeOrStopSettings.png;
+	isController = 1;
+	label = SnoozeOrStop;
+    };
+}
