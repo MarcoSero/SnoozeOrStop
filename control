@@ -1,7 +1,7 @@
 Package: com.marcosero.snoozeorstop
 Name: SnoozeOrStop
 Depends: mobilesubstrate
-Version: 0.3
+Version: 0.3.1
 Architecture: iphoneos-arm
 Description: Are you tired to slide to deactivate alarm every day? Adds the button to stop alarm in Lockscreen or stop it with lock button!
 Maintainer: Marco Sero <sero.marco@gmail.com>

@@ -7,7 +7,6 @@ Are you tired to slide to deactivate alarm every day? Adds the button to stop al
 ##How to Use
 Install it from Cydia.
 Go to Settings and set your favorites.
-Respring.
 
 ## License
 SnoozeOrStop is under GNU GENERAL PUBLIC LICENSE Version 3.
@@ -16,6 +15,9 @@ SnoozeOrStop is under GNU GENERAL PUBLIC LICENSE Version 3.
 For the latest news about SnoozeOrStop, visit the website of Marco Sero at http://www.marcosero.com/ios-tweaks
 
 ## Version History
+0.3.1:
+• FIXED: buggy settings that causes no stop button
+
 0.3: major update
 • ADDED: preferences bundle
 • ADDED: stop alarm also with lock button

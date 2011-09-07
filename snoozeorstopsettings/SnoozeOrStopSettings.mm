@@ -21,14 +21,6 @@
     
 }
 
--(void)respring:(PSSpecifier*)spec
-{
-    
-    system("killall -9 SpringBoard");
-    
-}
-
-
 @end
 
 // vim:ft=objc
