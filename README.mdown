@@ -1,7 +1,7 @@
 # SnoozeOrStop
 Are you tired to slide to deactivate alarm every day? Adds the button to stop alarm in Lockscreen or stops it with lock button!
 
-![](https://github.com/MarcoSero/SnoozeOrStop/raw/master/images/iphone.png)
+![](https://github.com/MarcoSero/SnoozeOrStop/raw/master/images/iphone1.png)
 ![](https://github.com/MarcoSero/SnoozeOrStop/raw/master/images/iphone2.png)
 
 ##How to Use
