@@ -1,8 +1,8 @@
 # SnoozeOrStop
 Are you tired to slide to deactivate alarm every day? Adds the button to stop alarm in Lockscreen or stops it with lock button!
 
-![](https://github.com/MarcoSero/SnoozeOrStop/raw/master/iphone.png)
-![](https://github.com/MarcoSero/SnoozeOrStop/raw/master/iphone2.png)
+![](https://github.com/MarcoSero/SnoozeOrStop/raw/master/images/iphone.png)
+![](https://github.com/MarcoSero/SnoozeOrStop/raw/master/images/iphone2.png)
 
 ##How to Use
 Install it from Cydia.
@@ -15,6 +15,9 @@ SnoozeOrStop is under GNU GENERAL PUBLIC LICENSE Version 3.
 For the latest news about SnoozeOrStop, visit the website of Marco Sero at http://www.marcosero.com/ios-tweaks
 
 ## Version History
+0.4:
+• ADDED: iOS 5 compatibility. (iOS 4 still compatible)
+
 0.3.1:
 • FIXED: buggy settings that causes no stop button
 

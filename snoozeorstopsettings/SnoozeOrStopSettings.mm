@@ -20,6 +20,19 @@
     [[UIApplication sharedApplication] openURL:url];
     
 }
+/*
+-(void)snoozeTime:(PSSpecifier*)spec
+{
+
+    NSString *filePath = @"/var/mobile/Library/Preferences/com.apple.mobiletimer.plist"
+    NSMutableDictionary *plistDict = [[NSMutableDictionary alloc] initWithContentsOfFile:filePath];
+    
+    [plistDict setValue:[NSNumber numberWithInt:100] forKey:@"TIMER_INTERVAL"];
+    [plistDict writeToFile:filePath atomically: YES];
+    
+}
+*/
+
 
 @end
 

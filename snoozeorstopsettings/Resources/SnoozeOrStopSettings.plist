@@ -58,7 +58,7 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>footerText</key>
-			<string>SnoozeOrStop v0.3 © 2011 Marco Sero.</string>
+			<string>SnoozeOrStop v0.4 © 2011 Marco Sero.</string>
 		</dict>
 	</array>
 	<key>title</key>
